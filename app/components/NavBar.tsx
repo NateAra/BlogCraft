@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { ModeToggle } from "./ModeToggle";
 
 export const NavBar = () => {
 
@@ -9,6 +10,7 @@ export const NavBar = () => {
         <Link href={'/'} className="font-bold text-5xl">
           Nate<span className="text-primary">Blog</span>
         </Link>
+        <ModeToggle />
       </nav>
     </header>
   );
